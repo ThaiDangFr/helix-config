@@ -25,15 +25,17 @@ Copiez le fichier de thème `sublime_text.toml` dans le dossier `themes` de votr
 cp themes/sublime_text.toml ~/.config/helix/themes/
 ```
 
-### 3. Appliquer le fichier de configuration
+### 3. Appliquer les fichiers de configuration
 
-Copiez le fichier `config.toml` vers votre dossier de configuration Helix :
+Copiez les fichiers `config.toml` et `languages.toml` vers votre dossier de configuration Helix :
 
 ```bash
 cp config.toml ~/.config/helix/config.toml
+cp languages.toml ~/.config/helix/languages.toml
 ```
 
 Le fichier `config.toml` contient l'activation du thème et la désactivation de l'autocomplétion automatique des paires de caractères (`"`, `(`, `[`, `{`) :
+
 
 ```toml
 theme = "sublime_text"
