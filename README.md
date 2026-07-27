@@ -25,17 +25,15 @@ Copiez le fichier de thème `sublime_text.toml` dans le dossier `themes` de votr
 cp themes/sublime_text.toml ~/.config/helix/themes/
 ```
 
-### 3. Appliquer les fichiers de configuration
+### 3. Appliquer le fichier de configuration
 
-Copiez les fichiers `config.toml` et `languages.toml` vers votre dossier de configuration Helix :
+Copiez le fichier `config.toml` vers votre dossier de configuration Helix :
 
 ```bash
 cp config.toml ~/.config/helix/config.toml
-cp languages.toml ~/.config/helix/languages.toml
 ```
 
 Le fichier `config.toml` contient l'activation du thème et la désactivation de l'autocomplétion automatique des paires de caractères (`"`, `(`, `[`, `{`) :
-
 
 ```toml
 theme = "sublime_text"
@@ -48,37 +46,7 @@ auto-pairs = false
 
 - **Thème Sublime Text** (`theme = "sublime_text"`) : Applique le thème personnalisé Sublime Text.
 - **Gestion manuelle des paires** (`auto-pairs = false`) : Désactive la fermeture automatique des guillemets, parenthèses et crochets lors de la saisie.
-- **Formatage automatique & LSP** ([languages.toml](file:///home/thai/checkout/helix-config/languages.toml)) : Intégration de `prettier` et `typescript-language-server` pour le formatage automatique à la sauvegarde (`auto-format = true`).
-
-## 🛠️ Formatage du Code & LSP
-
-### 1. Prérequis recommandés
-Pour activer le formatage automatique et la prise en charge de l'autocomplétion / LSP :
-
-```bash
-npm install -g prettier typescript-language-server typescript
-```
-
-### 2. Formateurs configurés (`languages.toml`)
-Le fichier `languages.toml` définit `prettier` pour le formatage des langages web :
-- **JavaScript / TypeScript** (`--parser babel` / `typescript`)
-- **JSON, HTML, CSS, Markdown**
-
-### 3. Résolution des erreurs courantes (`no configured language server...`)
-Si l'erreur `no configured language server supports range formatting` s'affiche :
-- Vérifiez qu'un formateur est bien configuré pour le langage dans `languages.toml`.
-- Pour une ré-indentation rapide sans LSP/formateur externe, utilisez la touche **`=`** (Tree-sitter indent natif) après avoir sélectionné du texte avec **`%`**.
-
-### 4. Diagnostic de la configuration
-Pour vérifier l'état des serveurs de langage et des formateurs installés :
-
-```bash
-hx --health javascript
-hx --health python
-```
 
 ## 📖 Cheat Sheet
 
-Retrouvez la liste complète des raccourcis essentiels (modes, sélection, suppression, copier-coller, presse-papiers système, multi-curseurs, formatage) dans [cheatsheet.md](file:///home/thai/checkout/helix-config/cheatsheet.md).
-
-
+Retrouvez la liste complète des raccourcis essentiels (modes, sélection, suppression, copier-coller, presse-papiers système, multi-curseurs) dans [cheatsheet.md](file:///home/thai/checkout/helix-config/cheatsheet.md).

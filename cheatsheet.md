@@ -71,20 +71,8 @@ Par défaut, Helix utilise son propre registre interne. Pour interagir avec le p
 
 ---
 
-## 🛠️ Formatage & Indentation
-
-| Touche / Commande | Action |
-|-------------------|--------|
-| `=` | Ré-indenter la sélection courante (Tree-sitter natif) |
-| `%` puis `=` | Sélectionner tout le fichier et ré-indenter |
-| `>` | Décaler la sélection vers la droite (indentation) |
-| `<` | Décaler la sélection vers la gauche (désindentation) |
-| `:format` | Formater le fichier complet via le formateur externe (`prettier`, `black`, etc.) |
-| `Alt` + `Shift` + `F` | Raccourci clavier pour formater avec le formateur LSP/externe |
-
----
-
 ## 🔍 Recherche & Navigation
+
 
 
 | Touche | Action |
