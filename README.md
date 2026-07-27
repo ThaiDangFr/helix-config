@@ -46,3 +46,8 @@ auto-pairs = false
 
 - **Thème Sublime Text** (`theme = "sublime_text"`) : Applique le thème personnalisé Sublime Text.
 - **Gestion manuelle des paires** (`auto-pairs = false`) : Désactive la fermeture automatique des guillemets, parenthèses et crochets lors de la saisie.
+
+## 📖 Cheat Sheet
+
+Retrouvez la liste complète des raccourcis essentiels (modes, sélection, suppression, copier-coller, presse-papiers système, multi-curseurs) dans [cheatsheet.md](file:///home/thai/checkout/helix-config/cheatsheet.md).
+
