@@ -46,15 +46,6 @@
 
 "punctuation" = "#d19a66"
 "punctuation.delimiter" = "#d19a66"
-"punctuation.special" = "#c678dd"
-
-# --- CONFIG & FORMATS DE DONNÉES (YAML, JSON, TOML) ---
-"property" = "#e06c75"
-"constant.builtin" = "#d19a66"
-"constant.builtin.boolean" = "#d19a66"
-"string.unquoted" = "#98c379"
-"tag" = "#e06c75"
-
 
 # --- INTERFACE (UI) ---
 "ui.background" = { bg = "#303841" }

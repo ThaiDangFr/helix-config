@@ -44,12 +44,9 @@ auto-pairs = false
 
 ## ⚙️ Réglages inclus
 
-- **Thème Sublime Text** (`theme = "sublime_text"`) : Applique le thème personnalisé Sublime Text avec coloration complète des langages et fichiers de configuration (YAML, JSON, TOML, Markdown, etc.).
+- **Thème Sublime Text** (`theme = "sublime_text"`) : Applique le thème personnalisé Sublime Text.
 - **Gestion manuelle des paires** (`auto-pairs = false`) : Désactive la fermeture automatique des guillemets, parenthèses et crochets lors de la saisie.
 
-> **Astuce YAML** : Pour forcer la coloration YAML sur un fichier sans extension `.yml` / `.yaml`, tapez `:set-language yaml` (ou `:lang yaml`) dans Helix.
-
 ## 📖 Cheat Sheet
-
 
 Retrouvez la liste complète des raccourcis essentiels (modes, sélection, suppression, copier-coller, presse-papiers système, multi-curseurs) dans [cheatsheet.md](file:///home/thai/checkout/helix-config/cheatsheet.md).
