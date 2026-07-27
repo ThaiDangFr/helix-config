@@ -1,0 +1,70 @@
+# Thème Mariana Exact - Stabilisé pour Helix
+
+# --- MARKDOWN ---
+"markup.heading.marker" = "#e06c75"
+"markup.heading" = { fg = "#ffffff", modifiers = ["bold"] }
+
+"markup.list" = "#d19a66"
+"markup.bold" = { fg = "#ffffff", modifiers = ["bold"] }
+"markup.italic" = { fg = "#ffffff", modifiers = ["italic"] }
+
+"markup.link.url" = { fg = "#61afef", modifiers = ["underline"] }
+"markup.link.text" = "#61afef"
+
+# Code : on unifie avec le fond de l'éditeur pour éviter l'effet "patchwork"
+"markup.raw" = "#98c379"
+"markup.raw.block" = "#d8dee9"
+"markup.raw.inline" = "#98c379"
+
+# --- SYNTAXE CODE (Bash, etc.) ---
+"keyword" = "#c678dd"
+"keyword.directive" = "#e06c75"
+
+"function" = "#61afef"
+"function.builtin" = "#61afef"
+"function.macro" = "#61afef"
+
+"variable" = "#d8dee9"
+"variable.parameter" = "#d19a66"
+"variable.other.member" = "#e06c75"
+
+"type" = "#e5c07b"
+
+"string" = "#98c379"
+"string.quoted" = "#98c379"
+"string.special" = "#56b6c2"
+
+"constant" = "#d19a66"
+"constant.numeric" = "#d19a66"
+
+"comment" = "#a6accd"
+
+"special" = "#d19a66"
+"attribute" = "#d19a66"
+"label" = "#e06c75"
+"operator" = "#d8dee9"
+
+"punctuation" = "#d19a66"
+"punctuation.delimiter" = "#d19a66"
+
+# --- INTERFACE (UI) ---
+"ui.background" = { bg = "#303841" }
+"ui.text" = "#d8dee9"
+"ui.text.focus" = "#ffffff"
+
+"ui.cursor" = { fg = "#303841", bg = "#f8f8f2" }
+"ui.cursor.primary" = { fg = "#303841", bg = "#f8f8f2" }
+"ui.cursorline.primary" = { bg = "#38404a" }
+
+"ui.selection" = { bg = "#4e5a65" }
+"ui.selection.primary" = { bg = "#4e5a65" }
+
+"ui.linenr" = "#5c6370"
+"ui.linenr.selected" = "#d8dee9"
+
+"ui.statusline" = { fg = "#d8dee9", bg = "#23282e" }
+"ui.statusline.inactive" = { fg = "#5c6370", bg = "#1b1f23" }
+"ui.popup" = { bg = "#23282e" }
+"ui.window" = { fg = "#303841" }
+"ui.menu" = { fg = "#d8dee9", bg = "#23282e" }
+"ui.menu.selected" = { fg = "#ffffff", bg = "#4e5a65" }

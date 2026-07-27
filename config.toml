@@ -1,0 +1,4 @@
+theme = "sublime_text"
+
+[editor]
+auto-pairs = false
