@@ -1,10 +1,16 @@
+[language-server.typescript-language-server]
+command = "typescript-language-server"
+args = ["--stdio", "--tsserver-path", "/home/thai/.nvm/versions/node/v22.21.1/lib/node_modules/typescript/lib"]
+
 [[language]]
 name = "javascript"
+language-servers = ["typescript-language-server"]
 formatter = { command = "prettier", args = ["--parser", "babel"] }
 auto-format = true
 
 [[language]]
 name = "typescript"
+language-servers = ["typescript-language-server"]
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
 auto-format = true
 
